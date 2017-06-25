@@ -114,6 +114,7 @@ rtmbuild_add_executable(ImageSensorROSBridge src/ImageSensorROSBridge.cpp src/Im
 rtmbuild_add_executable(RangeSensorROSBridge src/RangeSensorROSBridge.cpp src/RangeSensorROSBridgeComp.cpp)
 rtmbuild_add_executable(PointCloudROSBridge src/PointCloudROSBridge.cpp src/PointCloudROSBridgeComp.cpp)
 rtmbuild_add_executable(HrpsysJointTrajectoryBridge src/HrpsysJointTrajectoryBridge.cpp src/HrpsysJointTrajectoryBridgeComp.cpp)
+rtmbuild_add_executable(CallsetSegwayParameter src/CallsetSegwayParameter.cpp)
 
 install(DIRECTORY launch euslisp srv idl scripts models test cmake
   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
